@@ -1,0 +1,19 @@
+# Workbook data — binary, changes every run. Tracked by OneDrive + Archives/, not git.
+*.xlsx
+~$*.xlsx
+Archives/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local Claude Code settings (machine-specific)
+.claude/settings.local.json
+
+# Secrets — the real key lives in ~/.anthropic/ outside this folder; this is defensive.
+api_key.txt
+*.key
+
+# OS junk
+Thumbs.db
+.DS_Store
